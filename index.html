@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Navbar -->
+  <nav class="bg-green-600 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white text-2xl font-semibold">My Portfolio</a>
+      <div class="space-x-6">
+        <a href="#about" class="text-white hover:text-blue-300">About</a>
+        <a href="#projects" class="text-white hover:text-blue-300">Projects</a>
+        <a href="#contact" class="text-white hover:text-blue-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-green-500 text-white py-20 text-center">
+    <h1 class="text-4xl font-bold">Hello, I'm Muhammad Ahmed</h1>
+    <p class="mt-4 text-xl">I'm a passionate web developer</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-16 px-8">
+    <h2 class="text-3xl font-semibold text-center">About Me</h2>
+    <p class="mt-4 text-lg text-center text-gray-700">
+      I specialize in creating responsive and user-friendly web applications. With a keen eye for detail, I ensure that all projects I work on are of the highest quality. I'm constantly learning new technologies and looking for new challenges.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold">My Projects</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <img src="images/7.PNG" alt="Project 1" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-2xl mt-4">Themed Calculator</h3>
+          <p class="mt-2 text-gray-600">Description of the first project. A web application that helps users manage tasks.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <img src="images/9.PNG" alt="Project 2" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-2xl mt-4">Counter</h3>
+          <p class="mt-2 text-gray-600">Description of the second project. A portfolio website built with Tailwind CSS.</p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+          <img src="images/8.PNG" alt="Project 3" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-2xl mt-4">Project Three</h3>
+          <p class="mt-2 text-gray-600">Description of the third project. An e-commerce website with a modern design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-16 px-8 text-center">
+    <h2 class="text-3xl font-semibold">Contact Me</h2>
+    <p class="mt-4 text-lg text-gray-700">
+      Feel free to reach out for collaborations, projects, or just to say hi! I'm always open to new opportunities.
+    </p>
+    <div class="mt-8 space-x-6">
+      <a href="https://github.com/CodeWithAhmedd" class="text-2xl text-gray-700 hover:text-black">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://instagram.com/im._ahmaddd" class="text-2xl text-gray-700 hover:text-black">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white py-4 text-center">
+    <p>&copy; 2024 Muhammad Ahmed. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
