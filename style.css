@@ -244,6 +244,7 @@ span {
   width: 60px;
   margin: 20px;
 }
+
 .proficiency {
   margin: 20px 20px;
 }
@@ -283,19 +284,39 @@ span {
 
 /* Example proficiency levels */
 .proficiency .javascript .bar::after {
-  width: 90%; /* Adjust the width percentage as needed */
+  width: 90%; 
 }
 
 .proficiency .html-css .bar::after {
-  width: 95%; /* Adjust the width percentage as needed */
+  width: 95%; 
 }
 
 .proficiency .react .bar::after {
-  width: 20%; /* Adjust the width percentage as needed */
+  width: 20%; 
 }
 .education h2{
   margin-top: 50px;
   color: #ffffff;
   margin-left: 50px;
   font-size: 60px;
+}
+.education > img{
+  width: 80px;
+  border-radius: 40px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.education h3{
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+hr{
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid rgb(111, 111, 111);
 }
