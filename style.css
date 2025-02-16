@@ -154,6 +154,7 @@ span{
     background: none;
     border: none;
     cursor: pointer;
+    color: #ffffff;
   }
   
   @media (max-width: 768px) {
