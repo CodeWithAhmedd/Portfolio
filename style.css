@@ -147,8 +147,7 @@ span{
     .connects{
       margin-left: 150px;
     }
-  }
-  .nav-toggle {
+  }.nav-toggle {
     display: none;
     font-size: 24px;
     background: none;
