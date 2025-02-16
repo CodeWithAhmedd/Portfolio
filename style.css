@@ -187,3 +187,28 @@ span {
       margin-left: 80px;
   }
 }
+@media (max-width: 440px) {
+  .heading {
+      margin-left: 20px;
+      font-size: 50px;
+  }
+  span{
+    font-size: 60px;
+  }
+
+  .para {
+      margin-left: 20px;
+      width: 400px;
+      text-align: left;
+  }
+
+  .c1 {
+      margin-left: 20px;
+  }
+.connections a{
+  margin: 22px;
+}
+  .connects {
+      margin-left: 130px;
+  }
+}
