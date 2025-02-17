@@ -53,6 +53,7 @@ nav {
   text-align: center;
 }
 
+
 .para {
   font-size: 25px;
   width: 80%;
@@ -224,11 +225,15 @@ nav {
   color: red;
 }
 
+
 span {
-  font-size: 50px;
-  color: #4cc7cc;
+  font-size: 60px;
+  color: #ffffff00;
   font-family: sans-serif;
   font-weight: 900;
+  -webkit-text-stroke: 2px #2c8d91; 
+  /* text-shadow: 1px 40px 80px #004446;  */
+
 }
 
 .education h3 {
