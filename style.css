@@ -361,7 +361,21 @@ hr {
     font-size: 0.9rem;
     font-family: sans-serif;
   }
-  
+  .l1:hover{
+    color: #E1306C;
+  }
+  .l2:hover{
+    color: rgb(103, 148, 255);
+  }
+  .l3:hover{
+    color: blue;
+  }
+  .l4:hover{
+    color: red;
+  }
+  .l5:hover{
+    color: #000000;
+  }
   @media (max-width: 1025px) {
     .contacts h1 {
       font-size: 35px;
