@@ -160,6 +160,14 @@ nav {
   color: #ffffff;
   margin-bottom: 10px;
 }
+.proficiency .python .bar::after {
+  content: '';
+  display: block;
+  height: 20px;
+  background-color: #4cc7cc; /* Python-themed color */
+  width: 80%; /* Adjust this percentage to represent proficiency */
+  transition: width 1s ease-in-out;
+}
 
 .bar {
   width: 80%;
