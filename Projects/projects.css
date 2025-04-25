@@ -1,0 +1,144 @@
+* {
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: url(/images/23f88b80-ed18-11e9-8a21-0a636b193f08.gif);
+  }
+  .projects {
+    padding: 2rem;
+    /* background-color: #f9f9f9; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    
+  }
+  .project-heading{
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 50px;
+    color: #fff;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 4rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 0 1rem 1rem;
+    color: #666;
+  }
+  .card a {
+    text-decoration: none;
+    color: #000;
+  }
+  .back{
+    text-align: center;
+    margin-top: 20px;
+  }
+    .back a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    /* For Tablets and Medium Screens */
+@media (max-width: 768px) {
+    .project-heading {
+      font-size: 40px;
+    }
+  
+    .projects {
+      padding: 1.5rem;
+      gap: 50px;
+    }
+  
+    .project-cards {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+  
+    .card img {
+      height: 150px;
+    }
+  
+    .card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  
+    .back a {
+      font-size: 25px;
+    }
+  }
+  
+  /* For Mobile Screens */
+  @media (max-width: 426px) {
+    .project-heading {
+      font-size: 30px;
+    }
+  
+    .projects {
+      padding: 1rem;
+      gap: 20px;
+    }
+  
+    .project-cards {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .card img {
+      height: 120px;
+    }
+  
+    .card h3 {
+      font-size: 1rem;
+    }
+  
+    .card p {
+      font-size: 0.8rem;
+    }
+  
+    .back a {
+      font-size: 20px;
+    }
+  }
