@@ -229,7 +229,7 @@ nav {
 .proficiency .react .bar::after {
   width: 85%;
 }
-.proficiency .oracle .bar::after {
+.proficiency .sql .bar::after {
   width: 15%;
 }
 
