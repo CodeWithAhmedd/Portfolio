@@ -41,3 +41,6 @@ document.querySelectorAll('.nav-list a').forEach(link => {
     }
   });
 });
+document.getElementById('nav-toggle').addEventListener('click', function() {
+  document.getElementById('nav-list').classList.toggle('active');
+});
