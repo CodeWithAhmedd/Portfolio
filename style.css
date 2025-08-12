@@ -434,7 +434,16 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .heading { font-size: 35px; }
+  .heading {
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .heading span {
+    display: block;
+    margin-top: 8px;
+    font-size: 38px;
+  }
   .para { width: 100%; }
   .connections a { margin: 0 5px; }
   .connects { width: 100px; }
@@ -447,7 +456,16 @@ footer {
 }
 
 @media (max-width: 426px) {
-  .heading { font-size: 30px; }
+  .heading {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .heading span {
+    display: block;
+    margin-top: 6px;
+    font-size: 32px;
+  }
   .para { font-size: 18px; }
   .connections a { margin: 0 5px; }
   .connects { width: 120px; }
