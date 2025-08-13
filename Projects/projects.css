@@ -14,7 +14,7 @@ body {
   opacity: 0; /* Initially hidden */
   transform: translateX(50px); /* Slide from the left */
   animation: slideIn 1.5s ease-in forwards; /* Slide-in animation */
-  background-image: url(/images/23f88b80-ed18-11e9-8a21-0a636b193f08.gif);
+  background-image: url(/images/23f88b80-ed18-11e9-8a21-0a636b193f08.gif) !important;
 }
 
 /* Keyframes for slide-in */
