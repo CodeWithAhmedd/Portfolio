@@ -25,9 +25,27 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contacts">CONTACT ME</a></li>
          <li>
-   <a href="images/resume.pdf" download="resume.pdf" class="download-cv-btn">
+<button id="downloadBtn" class="download-cv-btn">
     <i class="fa-solid fa-download"></i> Download CV
-</a>
+</button>
+
+<script>
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    // Apne file ka exact path yahan do
+    const fileUrl = 'images/resume.pdf';
+
+    fetch(fileUrl)
+        .then(response => response.blob())
+        .then(blob => {
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = 'Muhammad_Ahmed_CV.pdf'; // download hone wale file ka naam
+            link.click();
+        })
+        .catch(() => alert('File download nahi ho saki. Path check karo.'));
+});
+</script>
+
 
 
         
